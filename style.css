@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+  .nav-link {
+    color: rgba(0, 0, 0, 0.55);
+  }
+}
+
+/* main section */
+
+.home {
+  background-color: #f0f5f9;
+  padding: 150px 0 100px 0;
+}
+
+/* about section */
+.about__card-image {
+  width: 80px;
+}
+.about h2 {
+  font-weight: 600;
+}
+.about__card-1 {
+  background-color: #fff2e5;
+}
+.p-5 {
+  padding: 3rem;
+}
+
+/* features section */
+.container_features{
+  background-color: #F0F5F9;
+}
+
+
+/* results */
+
+.result_img{
+  width: 100px;
+}
+/* reviews */
+.reviews__container{
+  background-color: rgb(240, 245, 249);
+  padding: 100px 50px;
+  margin-top: 50px;
+}
+.reviews_img{
+  width: 70px;
+}
